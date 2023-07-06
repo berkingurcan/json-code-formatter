@@ -1,0 +1,14 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "/Users/berkingurcan/Documents/json-code-formatter/nextjs-flask/app/layout.tsx": [
+      "/Users/berkingurcan/Documents/json-code-formatter/nextjs-flask/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/berkingurcan/Documents/json-code-formatter/nextjs-flask/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/berkingurcan/Documents/json-code-formatter/nextjs-flask/app/page": [
+      "/Users/berkingurcan/Documents/json-code-formatter/nextjs-flask/app/globals.css",
+      "/Users/berkingurcan/Documents/json-code-formatter/nextjs-flask/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
