@@ -17,17 +17,17 @@ export default function Home() {
     console.log('formatting')
     console.log(editorValue)
 
-    fetch('/api/python', {
+    fetch('http://localhost:5328/api/python', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ editorValue: editorValue }),
+      body: JSON.stringify({ rust_code: editorValue }),
     })
       .then(response => response.json())
       .then(data => {
         console.log('Formatted value:', data);
-        setFormattedValue(data.formattedValue);
+        setFormattedValue(data);
       })
       .catch(error => {
         console.error('Error:', error);
